@@ -1,7 +1,5 @@
-# pssslearning-courseraGoWeek3Assignment
-Assigment Curso https://www.coursera.org/learn/golang-getting-started/peer/sLPZg/module-3-activity-slice-go
-
-# courseraGoWeek2Assignment
+# pssslearning courseraGoWeek3Assignment
+Assigment Week 3 - Course  https://www.coursera.org/learn/golang-getting-started/peer/sLPZg/module-3-activity-slice-go
 ## Coursera course: Programming with Google Go (University of California, Irvine) 
 
 [Coursera - Getting Started with Go](https://www.coursera.org/learn/golang-getting-started/home/welcome)
