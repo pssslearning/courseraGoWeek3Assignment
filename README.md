@@ -21,3 +21,104 @@ Submit your source code for the program, “slice.go”.
 slice/slice.go
 ```
 
+#### A sample log for its compiling a testing cycle:
+
+```sh
+devel1@vbxdeb10mate:~$ cd $GOPATH/src/github.com/pssslearning/courseraGoWeek3Assignment/slice/
+devel1@vbxdeb10mate:~/gowkspc/src/github.com/pssslearning/courseraGoWeek3Assignment/slice$ go build slice.go 
+devel1@vbxdeb10mate:~/gowkspc/src/github.com/pssslearning/courseraGoWeek3Assignment/slice$ ./slice
+
+Welcome user to the Assignment program for Week 3,
+
+--------------------------------------------------------------
+Please enter a string that can be interpreted as INTEGER ... 
+      (press <CTRL+C> or 'X' to exit.) 
+--------------------------------------------------------------
+45
+--------------------------------------------------------------
+The ordered list of integers introduced by now are:
+Position #0 - Value[45]
+--------------------------------------------------------------
+Please enter a string that can be interpreted as INTEGER ... 
+      (press <CTRL+C> or 'X' to exit.) 
+--------------------------------------------------------------
+-3
+--------------------------------------------------------------
+The ordered list of integers introduced by now are:
+Position #0 - Value[-3]
+Position #1 - Value[45]
+--------------------------------------------------------------
+Please enter a string that can be interpreted as INTEGER ... 
+      (press <CTRL+C> or 'X' to exit.) 
+--------------------------------------------------------------
+80
+--------------------------------------------------------------
+The ordered list of integers introduced by now are:
+Position #0 - Value[-3]
+Position #1 - Value[45]
+Position #2 - Value[80]
+--------------------------------------------------------------
+Please enter a string that can be interpreted as INTEGER ... 
+      (press <CTRL+C> or 'X' to exit.) 
+--------------------------------------------------------------
+234
+--------------------------------------------------------------
+The ordered list of integers introduced by now are:
+Position #0 - Value[-3]
+Position #1 - Value[45]
+Position #2 - Value[80]
+Position #3 - Value[234]
+--------------------------------------------------------------
+Please enter a string that can be interpreted as INTEGER ... 
+      (press <CTRL+C> or 'X' to exit.) 
+--------------------------------------------------------------
+-2345
+--------------------------------------------------------------
+The ordered list of integers introduced by now are:
+Position #0 - Value[-2345]
+Position #1 - Value[-3]
+Position #2 - Value[45]
+Position #3 - Value[80]
+Position #4 - Value[234]
+--------------------------------------------------------------
+Please enter a string that can be interpreted as INTEGER ... 
+      (press <CTRL+C> or 'X' to exit.) 
+--------------------------------------------------------------
+FAKE
+ENTRY REJECTED [FAKE]. Cannot be parsed as an integer.
+--------------------------------------------------------------
+Please enter a string that can be interpreted as INTEGER ... 
+      (press <CTRL+C> or 'X' to exit.) 
+--------------------------------------------------------------
+3456
+--------------------------------------------------------------
+The ordered list of integers introduced by now are:
+Position #0 - Value[-2345]
+Position #1 - Value[-3]
+Position #2 - Value[45]
+Position #3 - Value[80]
+Position #4 - Value[234]
+Position #5 - Value[3456]
+--------------------------------------------------------------
+Please enter a string that can be interpreted as INTEGER ... 
+      (press <CTRL+C> or 'X' to exit.) 
+--------------------------------------------------------------
+-34
+--------------------------------------------------------------
+The ordered list of integers introduced by now are:
+Position #0 - Value[-2345]
+Position #1 - Value[-34]
+Position #2 - Value[-3]
+Position #3 - Value[45]
+Position #4 - Value[80]
+Position #5 - Value[234]
+Position #6 - Value[3456]
+--------------------------------------------------------------
+Please enter a string that can be interpreted as INTEGER ... 
+      (press <CTRL+C> or 'X' to exit.) 
+--------------------------------------------------------------
+X
+
+Goodbye !!!
+
+```
