@@ -1,7 +1,17 @@
-// --------------------------------------------------------------
+// -----------------------------------------------------------------
 // Source code mantained at Github repository for Learning
 // https://github.com/pssslearning/courseraGoWeek2Assignment
-// --------------------------------------------------------------
+// -----------------------------------------------------------------
+// NOTE:
+// -----------------------------------------------------------------
+// For the prompt cycle I could have used diverse Reader functions
+// from the "bufio" package, and also for the sorting procedure I
+// could also have used sorting functions from the package "sort"
+// (ie sort.Ints - https://golang.org/pkg/sort/#Ints) but, in both
+// cases I rather preferred to I tried as much as possible to stick
+// to the content that had been shown in the course videos in which
+// neither package had been mentioned / explained
+// -----------------------------------------------------------------
 
 package main
 
@@ -49,6 +59,8 @@ func main() {
 
 			if aRuneInInput == rune('\n') {
 				break
+			} else if aRuneInInput == rune('\r') {
+				continue
 			}
 
 			aString += string(aRuneInInput)
